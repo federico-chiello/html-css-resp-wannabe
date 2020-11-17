@@ -93,10 +93,12 @@ img {
   }
 
   .container.grey {
-    background-size: cover;
+    width: 100%;
   }
-
-
-
  }
+
+ @media screen and (max-width:768px){
+
+
+  }
  /* / media queries */
