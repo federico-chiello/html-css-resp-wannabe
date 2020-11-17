@@ -50,7 +50,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
@@ -97,7 +97,8 @@ img {
 
   #why .row>.first,
   #why .row>.second {
-    width: 100%;
+    width: calc(100% / 2);
+    float: left;
   }
 
   .container.grey {
@@ -120,6 +121,11 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
+  }
+
+  #why .row img {
+    height: 30%;
+    width: 30%;
   }
 
   .container.grey {
